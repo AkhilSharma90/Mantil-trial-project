@@ -1,0 +1,49 @@
+# DO NOT EDIT.
+# This is Mantil project state file maintained by Mantil.
+# It is stored in human readable format so you can
+# add it to git and have history of all changes.
+name: scratch-project
+stages:
+- name: dev
+  default: true
+  node: dev
+  keys:
+    public: SaLY53sIoqySGI1XMCcVxeLO31hO0XNTD2PJ3otf5rU
+    private: fkeA1O59VrPDHtG9z6iXa-G0aQgzRu_ZHSLaHKtVajlJotjnewiirJIYjVcwJxXF4s7fWE7Rc1MPY8nei1_mtQ
+  endpoints:
+    rest: https://2711nnrr50.execute-api.ap-south-1.amazonaws.com
+    ws: wss://i6quk4z6n6.execute-api.ap-south-1.amazonaws.com
+  last_deployment:
+    version: v0.2.8
+    timestamp: 1647948305974
+  functions:
+  - name: movie
+    hash: 1a09949d
+    s3_key: functions/scratch-project/dev/movie-1a09949d.zip
+    memory_size: 128
+    timeout: 900
+    env:
+      MANTIL_GO_CONFIG: eyJSZXNvdXJjZVRhZ3MiOnsiTUFOVElMX0tFWSI6IjI3M2VmZGU5IiwiTUFOVElMX1BST0pFQ1QiOiJzY3JhdGNoLXByb2plY3QiLCJNQU5USUxfU1RBR0UiOiJkZXYiLCJNQU5USUxfV09SS1NQQUNFIjoiQzVnaHoxb1JSOEt3T19SNnpFV0FiQSJ9LCJXc0ZvcndhcmRlck5hbWUiOiJtYW50aWwtc2NyYXRjaC1wcm9qZWN0LWRldi13cy1mb3J3YXJkZXItMjczZWZkZTkiLCJOYW1pbmdUZW1wbGF0ZSI6InNjcmF0Y2gtcHJvamVjdC1kZXYtJXMtMjczZWZkZTkifQ==
+      MANTIL_KEY: 273efde9
+      MANTIL_PROJECT: scratch-project
+      MANTIL_STAGE: dev
+  - name: ping
+    hash: 72c795a0
+    s3_key: functions/scratch-project/dev/ping-72c795a0.zip
+    memory_size: 128
+    timeout: 900
+    env:
+      MANTIL_GO_CONFIG: eyJSZXNvdXJjZVRhZ3MiOnsiTUFOVElMX0tFWSI6IjI3M2VmZGU5IiwiTUFOVElMX1BST0pFQ1QiOiJzY3JhdGNoLXByb2plY3QiLCJNQU5USUxfU1RBR0UiOiJkZXYiLCJNQU5USUxfV09SS1NQQUNFIjoiQzVnaHoxb1JSOEt3T19SNnpFV0FiQSJ9LCJXc0ZvcndhcmRlck5hbWUiOiJtYW50aWwtc2NyYXRjaC1wcm9qZWN0LWRldi13cy1mb3J3YXJkZXItMjczZWZkZTkiLCJOYW1pbmdUZW1wbGF0ZSI6InNjcmF0Y2gtcHJvamVjdC1kZXYtJXMtMjczZWZkZTkifQ==
+      MANTIL_KEY: 273efde9
+      MANTIL_PROJECT: scratch-project
+      MANTIL_STAGE: dev
+  - name: auth
+    hash: 5317623c
+    s3_key: functions/scratch-project/dev/auth-5317623c.zip
+    memory_size: 128
+    timeout: 900
+    env:
+      MANTIL_GO_CONFIG: eyJSZXNvdXJjZVRhZ3MiOnsiTUFOVElMX0tFWSI6IjI3M2VmZGU5IiwiTUFOVElMX1BST0pFQ1QiOiJzY3JhdGNoLXByb2plY3QiLCJNQU5USUxfU1RBR0UiOiJkZXYiLCJNQU5USUxfV09SS1NQQUNFIjoiQzVnaHoxb1JSOEt3T19SNnpFV0FiQSJ9LCJXc0ZvcndhcmRlck5hbWUiOiJtYW50aWwtc2NyYXRjaC1wcm9qZWN0LWRldi13cy1mb3J3YXJkZXItMjczZWZkZTkiLCJOYW1pbmdUZW1wbGF0ZSI6InNjcmF0Y2gtcHJvamVjdC1kZXYtJXMtMjczZWZkZTkifQ==
+      MANTIL_KEY: 273efde9
+      MANTIL_PROJECT: scratch-project
+      MANTIL_STAGE: dev
